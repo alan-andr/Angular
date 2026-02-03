@@ -1,0 +1,23 @@
+i {
+    font-size: 1.5rem;
+}
+
+div {
+    text-align: center;
+}
+
+a, a:visited, small {
+    color: grey;
+}
+
+a:hover {
+    color: red;
+}
+
+a:hover > i {
+    fill: red;
+}
+ 
+p > a {
+    margin-right: 10px;
+}
